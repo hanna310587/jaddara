@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaddarah Professional Services Limited</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f0f0f0;
+            padding: 10px 20px;
+        }
+        header h1 {
+            animation: slideText 5s linear infinite;
+            color: blue;
+        }
+        @keyframes slideText {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        .content {
+            padding: 20px;
+        }
+        footer {
+            background-color: #f0f0f0;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Section-specific Themes */
+        .home {
+            background-color: #e6f7ff; /* light blue */
+        }
+        .about {
+            background-color: #fff0e6; /* light orange */
+        }
+        .services {
+            background-color: #e6ffe6; /* light green */
+        }
+        .contact {
+            background-color: #fff5e6; /* light yellow */
+        }
+        .search-bar {
+            margin-top: 10px;
+        }
+        .search-bar input {
+            width: 300px;
+            padding: 5px;
+        }
+
+        /* Additional styling */
+        .welcome-message {
+            margin-top: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Jaddarah Professional Services Limited</h1>
+        <img src="logo.png" alt="Jaddarah Logo" height="50"> <!-- Replace with your logo path -->
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Our Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Search Bar -->
+    <div class="search-bar">
+        <input type="text" placeholder="Search...">
+    </div>
+
+    <!-- Front Page / Home Section -->
+    <section id="home" class="content home">
+        <div class="welcome-message">
+            Welcome to Jaddarah Professional Services Limited
+        </div>
+        <!-- Home content could be added here -->
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="content about">
+        <h2>About Us</h2>
+        <h3>Our Background History</h3>
+        <p>Jaddarah Professional Services Limited has been serving clients in providing jobs across the Gulf region...</p>
+
+        <h3>Our Mission</h3>
+        <p>To provide professional services that match job seekers with potential employers in the Gulf...</p>
+
+        <h3>Our Vision</h3>
+        <p>To be the leading provider of recruitment and placement services for professionals in various sectors...</p>
+
+        <h3>Conclusion Statement</h3>
+        <p>We are committed to ensuring that our clients and job seekers experience the highest level of professionalism.</p>
+    </section>
+
+    <!-- Our Services Section -->
+    <section id="services" class="content services">
+        <h2>Our Services</h2>
+
+        <h3>Jobs We Offer</h3>
+        <p>We offer job opportunities such as Cleaners, Security Personnel, Technicians, and more. Our job list is updated regularly.</p>
+
+        <h3>Countries We Serve</h3>
+        <p>We provide employment placement to countries like Qatar, Dubai, Oman, and more...</p>
+
+        <h3>Application Links</h3>
+        <ul>
+            <li><a href="#">Apply Now (Cleaners)</a></li>
+            <li><a href="#">Apply Now (Security)</a></li>
+            <!-- Links can be updated with time -->
+        </ul>
+
+        <h3>Application for Employers</h3>
+        <p>If you are an employer looking to hire, <a href="#">Click here to get in touch</a>.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="content contact">
+        <h2>Contact Us</h2>
+
+        <p><strong>Phone:</strong> +254 700 000 000</p>
+        <p><strong>Email:</strong> info@jaddarah.com</p>
+        <img src="logo.png" alt="Jaddarah Logo" height="50"> <!-- Replace with your logo path -->
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2024 Jaddarah Professional Services Limited. All rights reserved.
+    </footer>
+
+</body>
+</html>
